@@ -1,0 +1,31 @@
+body {
+    background-color: #f6f4f0; /* Couleur de fond beige */
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+}
+
+.btn-dark {
+    border-radius: 8px;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.navbar {
+    font-size: 18px;
+}
+
+.p-4 {
+    padding: 20px;
+}
+
+.rounded-4 {
+    border-radius: 12px;
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

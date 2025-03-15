@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 import { httpInterceptorProviders } from './_helpers/http.interceptor';
+import { NavBarComponent } from './myComponents/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { httpInterceptorProviders } from './_helpers/http.interceptor';
     ProfileComponent,
     BoardAdminComponent,
     BoardModeratorComponent,
-    BoardUserComponent
+    BoardUserComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
