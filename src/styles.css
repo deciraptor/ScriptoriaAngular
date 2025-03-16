@@ -1,10 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* création de variable de couleurs */
 :root {
-    --text-gris: #191919; 
+    --text-gris: #191919;
     --text-blanc: #f6f4f0;
-  }
-  
-  @font-face {
+}
+
+/* Import de la police */
+@font-face {
     font-family: 'Libre Baskerville';
     src: url('assets/fonts/LibreBaskerville-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -28,11 +31,5 @@
 /* Appliquer la police globalement */
 body {
     font-family: 'Libre Baskerville', serif;
-    color: var(--text-gris); /* Couleur du texte */
+    color: var(--text-gris);
 }
-
-
-
-
-
-  
